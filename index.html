@@ -6,18 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HV ING JAIME SÁNCHEZ MENDIETA</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="/js/script.js"></script>
 </head>
-<body>
-    <header>
-        <a href="./index.html">
-            <figure>
-                <img src="./assests/fotoPortafolio.jpg" alt="Foto personal">
-            </figure>
-        </a>
-        <h1>JAIME SÁNCHEZ MENDIETA</h1>
-        <div></div>
-        <h2>Ingeniero Ambiental y Desarrollador Web</h2>
-        <nav>
+<body onload="main()">
+    <header id="header" class="estiloInicialHeader">
+        <section>
+            <a href="./index.html">
+                <figure>
+                    <img src="./assests/fotoPortafolio.jpg" alt="Foto personal">
+                </figure>
+            </a>
+            <h1>JAIME SÁNCHEZ MENDIETA</h1>
+            <div class="linea"></div>
+            <h2>Ingeniero Ambiental y Desarrollador Web</h2>
+            <div class="contenedorOpciones">
+                <select id="opciones">
+                    <option value="1">Tono inicial</option>
+                    <option value="2">Tonos rojizos</option>
+                    <option value="3">Tonos morados</option>
+                    <option value="4">Tonos oscuros</option>
+                </select>
+                <button type="button" id="btnEjecutar">Cambiar estilo</button>
+            </div>
+        </section>
+        <nav id="nav">
             <ul>
                 <li><a href="./experiencia.html" class="active">Experiencia laboral</a></li>
                 <li><a href="./referenciasPersonales.html" class="active">Referencias Personales</a></li>
@@ -26,7 +38,7 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="main" class="estiloInicialMain">
         <section>    
             <h2>Bienvenidos a mi portafolio</h2>
             <h2>Acerca de mí</h2>
@@ -89,7 +101,7 @@
             </article>
         </section>
     </main>
-    <footer>
+    <footer id="footer" class="estiloInicialFooter">
         <h2>Contacto</h2>
         <ul>
             <li><a href="https://www.linkedin.com/in/jaime-orlando-s%C3%A1nchez-mendieta-4bba6b1a1/" target="_blank" class="active"><img src="./assests/iconos/linkedin.png" alt="Icono de linkedin"> LinkedIn</a></li>

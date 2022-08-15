@@ -6,18 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Experiencia laboral</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="/js/script.js"></script>
 </head>
-<body>
-    <header>
-        <a href="./index.html">
-            <figure>
-                <img src="./assests/fotoPortafolio.jpg" alt="Foto personal">
-            </figure>
-        </a>
-        <h1>JAIME SÁNCHEZ MENDIETA</h1>
-        <div></div>
-        <h2>Ingeniero Ambiental y Desarrollador Web</h2>
-        <nav>
+<body onload="main()">
+    <header id="header" class="estiloInicialHeader">
+        <section>
+            <a href="./index.html">
+                <figure>
+                    <img src="./assests/fotoPortafolio.jpg" alt="Foto personal">
+                </figure>
+            </a>
+            <h1>JAIME SÁNCHEZ MENDIETA</h1>
+            <div class="linea"></div>
+            <h2>Ingeniero Ambiental y Desarrollador Web</h2>
+            <div class="contenedorOpciones">
+                <select id="opciones">
+                    <option value="1">Tono inicial</option>
+                    <option value="2">Tonos rojizos</option>
+                    <option value="3">Tonos morados</option>
+                    <option value="4">Tonos oscuros</option>
+                </select>
+                <button type="button" id="btnEjecutar">Cambiar estilo</button>
+            </div>
+        </section>
+        <nav id="nav">
             <ul>
                 <li><a href="./experiencia.html" class="active">Experiencia laboral</a></li>
                 <li><a href="./referenciasPersonales.html" class="active">Referencias Personales</a></li>
@@ -25,27 +37,41 @@
                 <li><a href="./estudios.html" class="active">Estudios Realizados</a></li>
             </ul>
         </nav>
-    </header>
-    <main>
+    </header>  
+    <main id="main" class="estiloInicialMain">
         <h2>Experiencia laboral</h2>
         <div class="experiencia">
             <div class="experienciaImagen">
                 <img src="./assests/iconos/job.png" alt="Experiencia laboral">
             </div>
             <div class="experienciaLista">
-                <ul style="text-align: center; list-style: none;">
-                    <li class="tituloExperiencia">Empresa de Acueducto y Alcantarillado de Bogotá</li>
-                    <li>Pasante de Ingeniería Ambiental</li>
-                    <li>2019-2020</li>
-                    <li class="tituloExperiencia">Sitel</li>
-                    <li>Agente de Call Center Bilingüe</li>
-                    <li>2021</li>
+                <ul class="acordeon">
+                    <li class="listaAcordeon">
+                        <button type="button" class="acordeonItems">
+                            <b>Empresa de Acueducto y Alcantarillado de Bogotá</b>
+                            <img src="./assests/iconos/flecha.png" alt="Flecha acordeon">
+                        </button>
+                        <ul>
+                            <li>Pasante de Ingeniería Ambiental</li>
+                            <li>2019-2020</li>
+                        </ul>
+                    </li>
+                    <li class="listaAcordeon">
+                        <button type="button" class="acordeonItems">
+                            <b>Sitel Group</b>
+                            <img src="./assests/iconos/flecha.png" alt="Flecha acordeon">
+                        </button>
+                        <ul>
+                            <li>Agente de Call Center bilingüe</li>
+                            <li>2021</li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>
-        <p id="textoExperiencia">Por el momento no cuento con experiencia laboral en el campo de la tecnología, pero estoy muy entusiasmado de ingresar y de esta forma aportar valor a esta gran empresa.</p>
+        <p id="textoExperiencia">Por el momento no cuento con experiencia en campo de la tecnología más allá de los proyectos realizados por mi cuenta, pero estoy muy entusiasmado de ingresar y de esta forma aportar valor a esta gran empresa.</p>
     </main>
-    <footer>
+    <footer id="footer" class="estiloInicialFooter">
         <h2>Contacto</h2>
         <ul>
             <li><a href="https://www.linkedin.com/in/jaime-orlando-s%C3%A1nchez-mendieta-4bba6b1a1/" target="_blank" class="active"><img src="./assests/iconos/linkedin.png" alt="Icono de linkedin"> LinkedIn</a></li>
@@ -53,6 +79,6 @@
             <li><img src="./assests/iconos/email.png" alt="Icono de Email"> jimisanchezm@hotmail.com</li>
             <li><img src="./assests/iconos/whatsapp.png" alt="Icono de Whatsapp"> +573014924324</li>
         </ul>
-    </footer> 
+    </footer>
 </body>
 </html>
