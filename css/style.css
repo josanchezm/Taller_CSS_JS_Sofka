@@ -513,7 +513,7 @@ footer ul li a img, footer ul li img {
         width: 50%;
     }
     header nav ul, header nav ul li a {
-        font-size: var(--lg);
+        font-size: 2rem;
     }
 }
 
