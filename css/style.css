@@ -292,7 +292,6 @@ main section article {
 }
 
 .listaHabilidades ul, .listaHabilidades ul li {
-    list-style-image: url(./assests/iconos/greenchecklist.png);
     margin-bottom: 3px;
     text-align: start;
 }
