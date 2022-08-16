@@ -65,25 +65,18 @@ header, main, footer {
     background: rgba(17, 16, 19, 0.80);
     color: rgb(222, 241, 254);
     padding-bottom: 0px;
-    transition-duration: 1.5s;
 }
 
 .estiloNegroHeader {
-    background: rgba(17, 16, 19, 0.85);
-    opacity: 0;
-    transition-duration: 1.5s;
+    background: rgba(17, 16, 19, 0.85);  
 }
 
 .estiloRojoHeader {
-    background: rgba(154, 14, 1, 0.85);
-    opacity: 0;
-    transition-duration: 1.5s;
+    background: rgba(154, 14, 1, 0.85); 
 }
 
 .estiloMoradoHeader {
-    background-color: rgba(60, 36, 102, 0.9);
-    opacity: 0;
-    transition-duration: 1.5s;
+    background-color: rgba(60, 36, 102, 0.9);  
 }
 
 header > section {
@@ -127,9 +120,7 @@ header nav {
 }
 
 .estiloRojoNav {
-    background-color: rgb(16, 133, 149);
-    opacity: 0;
-    transition-duration: 1.5s;
+    background-color: rgb(16, 133, 149)
 }
 
 header nav ul {
@@ -195,26 +186,19 @@ header nav ul li:hover {
 
 .estiloInicialMain {
     background: rgb(215 235 255);
-    transition-duration: 1s;
 }
 
 .estiloNegroMain {
     background: rgba(17, 16, 19, 0.90);
-    color: rgb(222, 241, 254);
-    opacity: 0;
-    transition-duration: 1s;
+    color: rgb(222, 241, 254); 
 }
 
 .estiloRojoMain {
-    background: rgba(148, 26, 15, 0.85);
-    opacity: 0;
-    transition-duration: 1s;
+    background: rgba(148, 26, 15, 0.85);   
 }
 
 .estiloMoradoMain {
     background: rgb(101, 62, 169);
-    opacity: 0;
-    transition-duration: 1s;
 }
 
 .acordeon .listaAcordeon {
@@ -453,28 +437,21 @@ main section article {
 .estiloInicialFooter {
     background: rgba(17, 16, 19, 0.80);
     color: rgb(222, 241, 254);
-    transition-duration: 1.5s;
 }
 
 .estiloNegroFooter {
     background: rgba(17, 16, 19, 0.82);
     color: rgb(222, 241, 254);
-    opacity: 0;
-    transition-duration: 1.5s;
 }
 
 .estiloRojoFooter {
     background: rgba(154, 14, 1, 0.85);;
     color: rgb(222, 241, 254);
-    opacity: 0;
-    transition-duration: 1.5s;
 }
 
 .estiloMoradoFooter {
     background: rgba(78, 36, 150, 0.95);
     color: rgb(222, 241, 254);
-    opacity: 0;
-    transition-duration: 1.5s;
 }
 
 footer ul {

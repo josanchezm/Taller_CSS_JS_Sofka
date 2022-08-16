@@ -18,34 +18,14 @@ const main = () => {
         capaMain.classList.add('estiloRojoMain');
         capaFooter.classList.add('estiloRojoFooter');
         nav.classList.add('estiloRojoNav');
-        capaHeader.style.transitionDuration = '0s';
-        capaHeader.style.opacity = '1';
-        capaMain.style.transitionDuration = '0s';
-        capaMain.style.opacity = '1';
-        capaFooter.style.transitionDuration = '0s';
-        capaFooter.style.opacity = '1';
-        nav.style.transitionDuration = '0s';
-        nav.style.opacity = '1';
     } else if(modoColor === "estiloMorado") {
         capaHeader.classList.add("estiloMoradoHeader");               
         capaMain.classList.add("estiloMoradoMain");               
         capaFooter.classList.add("estiloMoradoFooter");
-        capaHeader.style.transitionDuration = '0s';
-        capaHeader.style.opacity = '1';
-        capaMain.style.transitionDuration = '0s';
-        capaMain.style.opacity = '1';
-        capaFooter.style.transitionDuration = '0s';
-        capaFooter.style.opacity = '1';
     } else if(modoColor === "estiloNegro") {
         capaHeader.classList.add('estiloNegroHeader');
         capaMain.classList.add('estiloNegroMain');
         capaFooter.classList.add('estiloNegroFooter');
-        capaHeader.style.transitionDuration = '0s';
-        capaHeader.style.opacity = '1';
-        capaMain.style.transitionDuration = '0s';
-        capaMain.style.opacity = '1';
-        capaFooter.style.transitionDuration = '0s';
-        capaFooter.style.opacity = '1';
     }
 
     // Efecto acordeon
